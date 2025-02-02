@@ -31,3 +31,39 @@ Throughout this project, we gained deep insights into Raman Spectroscopy and its
 
 ## What's next for High Precision Recycling System (HPRS) 
 We hope to continue developing our HIgh Precision Recycling System and take it from a prototype to a marketable product that empowers the recycling movement. For instance, continue developing a real-world-scale model and testing it in a sample public environment and user-base. 
+
+
+## Credits
+- Luyu (/Hardware)
+-- Spectrometer hardware and interfacing code
+
+- Tony (/Algorithm)
+-- Similarity detections
+
+- Sterling (/OrcaData)
+-- Computational Quantum stuff
+
+### Resources
+  	Neese,F. An improvement of the resolution of the identity approximation for the formation of the Coulomb matrix J. Comp. Chem., 2003 24(14)1740-1747 doi.org/10.1002/jcc.10318​
+
+​
+
+	Bykov,D.; Petrenko,T.; Izsak,R.; Kossmann,S.; Becker,U.; Valeev,E.; Neese,F. Efficient implementation of the analytic second derivatives of Hartree-Fock and hybrid DFT energies: a detailed analysis of different approximations Molec. Phys., 2015 113 1961-1977 doi.org/10.1080/00268976.2015.1025114​
+
+​
+
+	Neese,F. The SHARK Integral Generation and Digestion System J. Comp. Chem., 2022  1-16 doi.org/10.1002/jcc.26942​
+
+​
+
+	J. D. Hunter, "Matplotlib: A 2D Graphics Environment", Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, 2007.​
+
+​
+
+	Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming with NumPy. Nature 585, 357–362 (2020).​
+
+​
+
+https://www.faccts.de/docs/orca/5.0/tutorials/spec/IR.html​
+
+​
