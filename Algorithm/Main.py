@@ -12,11 +12,11 @@ class element():
     def test(self):
         print(1)
         A = np.array(self.f)
-        elements = util.load_data("files.csv","Names")
+        elements = util.load_data("Algorithm/files.csv","Names")
 
         #convert and test all elements using cosine similarity
         for name in elements:
-            test = util.load_data("elements/"+name+".csv","Intensity")
+            test = util.load_data("Algorithm/elements/"+name+".csv","Intensity")
             test = util.stringtofloat(test)
             
             B = np.array(test)
@@ -37,7 +37,7 @@ class element():
         return self.likely
 
 def main():
-    eth = element("eth", "elements/ethanol.csv")
+    eth = element("eth", "Algorithm/elements/ethanol.csv")
     eth.test()
     print(eth.identify())
 
