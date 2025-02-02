@@ -1,7 +1,7 @@
 # import required libraries
 import numpy as np
 from numpy.linalg import norm
-import util as util
+import util
 
 class element():
     def __init__(self, name, file):
@@ -16,6 +16,7 @@ class element():
 
         #convert and test all elements using cosine similarity
         for name in elements:
+            print("\nTesting similarity with",name)
             test = util.load_data("elements/"+name+".csv","Intensity")
             test = util.stringtofloat(test)
             
@@ -23,10 +24,12 @@ class element():
         
             #Compute cosine similarity
             cosine = util.cosine_similarity(A,B)
+            print("Cosine similarity of",cosine)
 
             #Compute R^2 value
             R2 = util.r_squared(test,self.f)
-
+            print("R2 of",R2)
+            
             if (cosine>self.likely[1] and R2>0.95):
                 self.likely = (name, cosine, R2)
 
@@ -36,9 +39,11 @@ class element():
         
         return self.likely
 
-def main():
-    eth = element("eth", "elements/ethanol.csv")
+def main(path):
+    eth = element("Test", path)
     eth.test()
+    print("\nMost likely identity:")
     print(eth.identify())
 
-main()
+if __name__ == "__main__":
+    main("elements/ethanol.csv")

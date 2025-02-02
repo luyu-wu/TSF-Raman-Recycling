@@ -1,8 +1,10 @@
 # avogadro generated ORCA input file 
 # Basic Mode
 # 
-!BP86 DEF2-SVP NUMFREQ 
-
+!BP86 DEF2-SVP NUMFREQ
+%ELPROP
+   POLAR 1
+END
 * xyz 0 1
    C       -4.32757        1.16257       -0.02268
    C       -2.87154        1.60036       -0.06503
