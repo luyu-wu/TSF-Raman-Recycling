@@ -24,7 +24,7 @@ def organize_data(directory):
 
     return plastics
 
-plastics = organize_data("PlasticData.csv")
+plastics = organize_data("Algorithm/PlasticData.csv")
 plastics.pop(0)
 
 array = []
