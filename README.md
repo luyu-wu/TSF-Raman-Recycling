@@ -1,5 +1,7 @@
 # BluesHacks-Recycling
 
+![Raman_activated](https://github.com/user-attachments/assets/d33ed4e2-9ff8-4625-9d5c-678265b2cc36)
+
 ## Inspiration
 The idea for this project was born from the growing global waste crisis and the inefficiencies of existing trash separation systems. Traditional methods (such as OpenCV image recognition and mechanical separation) often struggle with varying designs, colors, and lighting conditions. This inaccuracy can often lead to complete rejections of large amounts of otherwise possibly recyclable material. We wanted to create a solution that is resistant to these limitations and could provide a more robust and adaptable approach to waste sorting.  
 
