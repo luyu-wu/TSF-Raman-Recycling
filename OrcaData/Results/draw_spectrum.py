@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import smplotlib
 
 # Raman data: frequency (cm^-1) and activity (intensity)
 data = {
