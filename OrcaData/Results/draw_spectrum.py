@@ -26,8 +26,10 @@ data = {
     26: (3465.46, 126.505567),
 }
 
+
 def gaussian(x, mu, intensity, sigma=10):
-    return intensity * np.exp(-((x - mu) ** 2) / (2 * sigma ** 2))
+    return intensity * np.exp(-((x - mu) ** 2) / (2 * sigma**2))
+
 
 x = np.linspace(200, 3500, 5000)
 spectrum = np.zeros_like(x)
